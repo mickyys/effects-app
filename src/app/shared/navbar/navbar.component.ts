@@ -14,7 +14,6 @@ export class NavbarComponent implements OnInit {
   }
 
   buscar(value : string){
-    console.log(value);
     if(!value){
       return
     }
